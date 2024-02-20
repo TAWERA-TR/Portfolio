@@ -1,0 +1,231 @@
+#background {
+    margin: 35px;;
+    background-image: url(/auckland_new-zealand.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backface-visibility: inherit;
+    background-size: cover;
+}
+
+nav{
+    margin-top: 45px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav-items {
+    cursor: pointer;
+    color: orange;
+    text-decoration: none;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(7, 226, 251);
+    padding:2px;
+    border-radius: 12px;
+    box-shadow: rgb(255, 255, 255) 1px 1px 4px 1px;
+    font-family: "Dancing Script", cursive;
+}
+
+.nav-items:hover {
+    background-color: rgb(0, 134, 149);
+}
+
+#top-name {
+    cursor: pointer;
+    color: orange;
+    text-decoration: none;
+    background-color: rgb(7, 226, 251);
+    padding:2px;
+    border-radius: 12px;
+    box-shadow: rgb(255, 255, 255) 1px 1px 4px 1px;
+    font-family: "Dancing Script", cursive;
+}
+
+#top-name:hover {
+    background-color: rgb(1, 151, 168);
+}
+
+main {
+    color: rgb(7, 226, 251);
+    font-family: "Protest Revolution", sans-serif;
+}
+
+#title {
+    font-size: 65px;
+    text-align: center;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 30px;
+}
+
+.about {
+    font-size: 25px;
+}
+
+#take2-link {
+    cursor: pointer;
+    color:rgb(4, 255, 0);
+}
+
+#list {
+    font-size: 25px;
+}
+
+#handsome-devil {
+    border-radius: 50%;
+}
+
+.showcase {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:start;
+    background-color: none;
+}
+
+.showcase > div {
+    background-color:orange;
+    width: 300px;
+    height:300px;
+}
+
+strong, b {
+    color: orange;
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+    background-color: orange;
+    font-size: 23px;
+    text-decoration: solid;
+    color: white;
+    padding: 13px;
+    margin:2px;
+    border: 5px;
+    border-radius: 30px;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+button:hover {
+    background-color: rgb(170, 111, 3);
+}
+
+#my-info {
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+    list-style-type: none;
+}
+
+.details {
+    cursor: pointer;
+    text-decoration: solid underline ;
+    color: white;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+
+form {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+
+.info-box {
+    background-color: rgb(7, 226, 251);
+    font-size: 23px;
+    text-decoration: solid;
+    color: rgb(109, 109, 109);
+    padding: 13px;
+    margin:2px;
+    border: 5px;
+    border-radius: 30px;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+#submit {
+    background-color: orange;
+    font-size: 23px;
+    text-decoration: solid;
+    color: white;
+    padding: 13px;
+    margin:2px;
+    border: 5px;
+    border-radius: 30px;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+#submit:hover {
+    background-color: rgb(170, 111, 3);
+}
+
+h3 {
+    color: orange;
+    font-size: 45px;
+}
+
+@media screen and (max-width: 430px) {
+    nav{   
+        margin-top: 45px;
+        font-size: 19px;
+        font-weight: bold;
+        padding:2px;
+    }
+    
+    .nav-items {
+        float: right;
+        margin-left: 6px;
+        margin-right: 6px;
+        
+    }
+    
+    #top-name {
+        
+    }
+    
+    #handsome-devil {
+        width:180px;
+        height:180px;
+    }
+    
+    #title {
+        font-size: 30px;
+    }
+
+    #intro, button {
+        font-size: 19px;
+    }
+
+    
+}
+
+@media screen and (max-width:770px) {
+    nav{    
+        margin-top: 50px;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    
+    .nav-items {
+        float: right;
+        margin-left: 6px;
+        margin-right: 6px;
+        padding:2px;
+    }
+    
+    #top-name {
+        padding:2px;
+    }
+}
